@@ -1,0 +1,1490 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+body{
+  background-color: #fff1df;
+}
+
+/* Menu ordenador */
+
+
+
+
+/* Inicio hfjhdjkghjkfhjkghfjdhhjkghjkdfhsgjkfhjkghjkfd */
+.titulo{
+  display: none;
+}
+
+.clear{
+  clear:both;
+}
+
+
+
+#footer{
+  width: 100%;
+  background-color: #5b3d38;
+  height: 85px;
+  position: relative;
+  margin-top: 15px;
+}
+
+#footer li{
+  width: 100%;
+  padding-left: 43%;
+  position: relative;
+}
+
+#footer img{
+ width: 50px;
+ height: 50px;
+ position: center center;
+ margin-top: 20px;
+ margin-left: 15px;
+ float: left;
+ display: block;
+position: relative;
+
+
+}
+
+.slider{
+  width: 930px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 18px;
+  margin-bottom: 21px;
+  position: relative;
+}
+
+.slider ul{
+  padding: 0;
+  display: flex;
+  width: 100%;
+  animation: cambio 20s infinite;
+}
+
+.slider li{
+  list-style-type:  none;
+  width: 100%;
+  height: 100%;
+}
+
+.slider img{
+width:930px;
+height: 930px;
+margin: 0 auto;
+position: relative;
+
+
+}
+
+@keyframes cambio {
+
+  0% {margin-left: 0%;}
+  20% {margin-left: 0%;}
+
+  25% {margin-left: -100%;}
+  45%{margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -200%;}
+  100% {margin-left: -200%;}
+
+}
+
+
+nav{
+  background-color: #5b3d38;
+  height: 100px;
+  width: 100%;
+}
+
+.enlace{
+  position: absolute;
+  padding: 10px 25px;
+}
+
+.logo{
+  height: 80px;
+  margin-left: 10px;
+
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 100px;
+  margin: 0 10px;
+}
+
+nav ul li a{
+  color: #fff1df ;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 400;
+}
+
+li a.active, li a:hover{
+  background: white;
+  transition: .5s;
+  color: #5b3d38;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color:#823828;
+  float: left;
+  line-height: 80px;
+  margin-left: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+/* Recetasjgklfhgjfgjklfjkldjgklfajgflkdgjafklñjglfjg */
+.fotos{
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 51px;
+}
+
+.platos:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+.pos:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+.fotos ul{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fotos li{
+  padding-top: 25px;
+
+
+}
+
+.fotos img{
+  width: 1000px;
+  height: 425px;
+    margin: 0 auto;
+}
+
+
+
+
+  #pierecetas img{
+   width: 50px;
+   height: 50px;
+   position: center center;
+   margin-top: 15px;
+   margin-left: 15px;
+   float: left;
+   display: block;
+  position: relative;
+  }
+
+
+
+  #pierecetas li{
+    width: 100%;
+    padding-left: 43%;
+    position: relative;
+    margin-top: 5px;
+  }
+
+  #pierecetas ul{
+    margin: 0 auto;
+  }
+
+  #pierecetas{
+    width: 100%;
+    background-color: #5b3d38;
+    height: 80px;
+    position: relative;
+    margin-top: -10px;
+  }
+
+  /* Comidas menú  njgfhjgkhfjghjejkghthgjkhkshjkhjkfghjkfdhg*/
+
+  .clear{
+    clear: both;
+  }
+  .com{
+    margin-bottom: 15px;
+  }
+
+  .fotos2{
+    width: 1250px;
+    margin: 0 auto;
+    float left;
+    position: relative;
+    z-index: 1;
+  }
+
+  .foto{
+    width: 599px;
+    height: 460px;
+    margin-left: 10px;
+    float: left;
+    background-color: red;
+    margin-bottom: 10px;
+  }
+
+  .macarrones:hover{
+    background-image: url(img/machover.png);
+    background-size: contain;
+  }
+
+  .macarrones{
+    width: 600px;
+    height: 460px;;
+    background-image: url(img/mac.png);
+    background-size: contain;
+
+  }
+
+
+  .tort:hover{
+    background-image: url(img/torthover.png);
+    background-size: contain;
+  }
+
+  .tort{
+    width: 600px;
+    height: 460px;;
+    background-image: url(img/tortilla.png);
+    background-size: contain;
+
+  }
+
+  .ques:hover{
+    background-image: url(img/queshover.png);
+    background-size: contain;
+  }
+
+  .ques{
+    width: 600px;
+    height: 460px;;
+    background-image: url(img/quesadilla.png);
+    background-size: contain;
+
+  }
+
+
+  .sandw:hover{
+    background-image: url(img/sandhover.png);
+    background-size: contain;
+  }
+
+  .sandw{
+    width: 600px;
+    height: 460px;;
+    background-image: url(img/sand.png);
+    background-size: contain;
+
+  }
+
+  .tiram:hover{
+    background-image: url(img/tiramhover.png);
+    background-size: contain;
+  }
+
+  .tiram{
+    width: 600px;
+    height: 460px;;
+    background-image: url(img/tiram.png);
+    background-size: contain;
+
+  }
+
+
+  .nati:hover{
+    background-image: url(img/nathover.png);
+    background-size: contain;
+  }
+
+  .nati{
+    width: 600px;
+    height: 460px;;
+    background-image: url(img/nat.png);
+    background-size: contain;
+
+  }
+
+  .churro:hover{
+    background-image: url(img/churrohover.png);
+    background-size: contain;
+  }
+
+  .churro{
+    width: 600px;
+    height: 460px;;
+    background-image: url(img/Churro.png);
+    background-size: contain;
+
+  }
+
+  .cake:hover{
+    background-image: url(img/cakehover.png);
+    background-size: contain;
+  }
+
+  .cake{
+    width: 600px;
+    height: 460px;;
+    background-image: url(img/cake.png);
+    background-size: contain;
+
+  }
+
+
+
+  .fotos2 img{
+    width: 600px;
+    height: 460px;
+    margin-left: 10px;
+    margin-top: 4px;
+    float left;
+    margin-bottom: 4px;
+    position: relative;
+  }
+
+  .fotos2 ul{
+    margin-top: 15px;
+    position: relative;
+    float left;
+    margin-bottom: 10px;
+
+  }
+
+  .fotos2 li{
+    float: left;
+    position: relative;
+  }
+
+  #piecomidas img{
+   width: 50px;
+   height: 50px;
+   position: center center;
+   margin-top: 15px;
+   margin-left: 15px;
+   float: left;
+   display: block;
+  position: relative;
+  }
+
+
+
+  #piecomidas li{
+    width: 100%;
+    padding-left: 45%;
+    position: relative;
+    margin-top: 5px;
+  }
+
+  #piecomidas{
+    width: 100%;
+    background-color: #5b3d38;
+    height: 85px;
+    position: relative;
+    margin-top: 15px;
+  }
+
+  /* Quienes somos iovhfjehwghltuehgiuhretwhgiuthueiwhgiuh*/
+
+.contenedorquienes{
+  background-color: #f4e3d0;
+  width: 930px;
+  height: 930px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
+
+.contenedorquienes img{
+  width: 700px;
+  height: 700px;
+  margin-top: 45px;
+  margin-left: 115px;
+  border-width:  5px;
+  border-color: #5b3d38;
+  border-style: solid;
+}
+
+.contenedorquienes h2{
+  color:  #5b3d38;
+margin-left: 50px;
+text-decoration: underline;
+font-family: 'Old Standard TT', serif;
+font-weight: 400;
+
+}
+
+.textoq{
+  width: 900px;
+
+  margin-top: -60px;
+  margin-left: 15px;
+}
+
+
+.contenedorquienes p{
+text-align: center;
+  margin-top:  50px;
+  margin-left: 70px;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 400;
+
+}
+
+#pieq{
+  width: 100%;
+  background-color: #5b3d38;
+  height: 80px;
+  position: relative;
+  margin-top: 15px;
+}
+
+#pieq li{
+  width: 100%;
+  padding-left: 45%;
+  position: relative;
+}
+
+#pieq img{
+ width: 50px;
+ height: 50px;
+ position: center center;
+ margin-top: 15px;
+ margin-left: 15px;
+ float: left;
+ display: block;
+position: relative;
+
+
+}
+
+/* Contactos kjkjjkjkjkjkjkjjkjkjkkjkjkjkjkjkjkjkjjj */
+
+form{
+  width: 450px;
+  margin: 0 auto;
+  background: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top:237px;
+  border-radius: 5px;
+}
+
+h2{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 600;
+
+}
+
+input, textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+
+}
+
+#boton{
+  background-color: #5b3d38;
+  color: white;
+  padding: 20px;
+}
+
+#boton:hover{
+  cursor: pointer;
+  }
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  z-index:-3;
+}
+
+.contenedorcontactos{
+  background-color: #F9DEB7;
+  width: 1000px;
+  height: 930px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 18px;
+  margin-bottom: 26px;
+  border-radius: 5%;
+}
+
+
+.contenedorquienes h2{
+  margin-right: 90px;
+  margin-top:  90px;
+
+
+}
+
+.contenedorquienes p{
+  margin-right: 90px;
+  margin-top:  20px;
+
+}
+
+#piec{
+  width: 100%;
+  background-color: #5b3d38;
+  height: 80px;
+  position: relative;
+  margin-top: 5px;
+}
+
+#piec li{
+  width: 100%;
+  padding-left: 45%;
+  position: relative;
+}
+
+#piec img{
+ width: 50px;
+ height: 50px;
+ position: center center;
+ margin-top: 15px;
+ margin-left: 15px;
+ float: left;
+ display: block;
+position: relative;
+
+
+}
+
+/* Macarrones jfkdhsjhfjdhfjhfjdhjfdhjdhjdhfjdhjf */
+.slider2 @keyframes cambio  {
+
+  0% {margin-left: 0%;}
+  20% {margin-left: 0%;}
+
+  25% {margin-left: -100%;}
+  45%{margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -200%;}
+  100% {margin-left: -200%;}
+
+
+}
+
+.quesa{
+  display: none;
+}
+
+
+
+.slider2 ul{
+  padding: 0;
+  display: flex;
+  width: 300%;
+  animation: cambio 20s infinite;
+
+}
+
+.slider2 li{
+  list-style-type:  none;
+  width: 100%;
+  height: 100%;
+}
+
+.slider2 img{
+width: 50%;
+height: 600px;
+position: relative;
+
+
+}
+
+.video{
+  width: 710px;
+  background-color: #5b3d38;
+  margin-left: 290px;
+  color: white;
+  margin-top: 175px;
+}
+
+.contenedorcomidas{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  position: relative;
+}
+
+.botonatras{
+  width: 150px;
+  background-color: #5b3d38;
+  margin-left: 290px;
+  color: white;
+  margin-top: 100px;
+  float: right;
+}
+
+.botonatras h2{
+  margin-top: 20px;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 400;
+}
+
+
+
+.contenedorcomidas2{
+  width: 1000px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 350px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+.contenedorcomidas img{
+  margin: 0 auto;
+  width: 1000px;
+  height: 600px;
+  border-width:  5px;
+  border-color: #5b3d38;
+  border-style: solid;
+}
+
+.titulos{
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+}
+
+.titulos h1{
+  color: #5b3d38;
+  margin: 0 auto;
+  text-decoration: underline;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 600;
+
+
+}
+
+.ingredientes{
+  border-width:  3px;
+  border-color: #5b3d38;
+  border-style: solid;
+  margin-right: 20px;
+  width: 230px;
+  float: left;
+
+
+}
+
+.ingredientes h2{
+  color: #5b3d38;
+  margin-top: -5px;
+  font-family: 'Old Standard TT', serif;
+  font-weight: 600;
+
+
+}
+
+.ingredientes li{
+  margin-bottom: 5px;
+  text-align: justify;
+  margin-right: 15px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+font-family: 'Cormorant', serif;
+font-weight: 500;
+font-size: 19px;
+
+}
+
+
+
+
+.proceso{
+
+  margin-left: 20px;
+  width: 750px;
+  margin-left: 250px;
+  margin-top: -325px;
+
+
+
+}
+
+
+
+.proceso li{
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 30px;
+  margin-bottom: 15px;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 400;
+
+}
+
+.proceso ul{
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+.ingredientes h2{
+  margin-top: 25px;
+  margin-left: -50px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+
+}
+
+
+
+
+#piemac{
+  width: 100%;
+  background-color: #5b3d38;
+  height: 80px;
+  position: relative;
+  margin-top: 125px;
+
+}
+
+
+#piemac li{
+  width: 100%;
+padding-left: 45%;
+  position: relative;
+}
+
+#piemac img{
+ width: 50px;
+ height: 50px;
+ position: center center;
+ margin-top: 15px;
+ margin-left: 20px;
+ float: left;
+ display: block;
+position: relative;
+}
+
+/* Menu movil hhhhhhhhhhhhhhhhhhhhughiuhjhjkhjkhjhkjh*/
+
+
+@media(max-width: 450px){
+
+  .enlace img{
+  margin-left: 190px;
+  }
+
+
+
+  .logo{
+    height: 60px;
+    margin-left: -100px;
+
+  }
+
+  nav img{
+    float: left;
+  }
+
+
+  .checkbtn{
+    display: block;
+    font-size: 30px;
+    color:#fff1df;
+    float: left;
+    line-height: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .slider{
+    width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 18px;
+    margin-bottom: 21px;
+    position: relative;
+  }
+
+
+  .slider ul{
+    padding: 0;
+    display: flex;
+    width: 400%;
+    animation: cambio 20s infinite;
+    margin-top: 150px;
+  }
+
+  .slider li{
+    list-style-type:  none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .slider img{
+  width: 300px;
+  height: 300px;
+  position: relative;
+
+
+  }
+
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top:80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav{
+    height: 80px;
+    margin-bottom: 20px;
+  }
+
+  nav ul{
+    z-index: 2;
+    float: right;
+    background-color: white;
+    height: 100%;
+  }
+  nav li{
+    background-color: white;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a{
+    font-size: :20px;
+    color:#5b3d38;
+    opacity: 100%;
+    position: relative;
+
+  }
+
+  ul li a.active, ul li a:hover{
+    opacity: 100%;
+    background-color: #5b3d38;
+    color:white;
+
+  }
+
+
+
+
+  #check:checked ~ ul{
+      left: 0;
+  }
+
+  #footer{
+    height: 40px;
+    margin-top: 625px;
+    width: 100%;
+
+
+  }
+
+  #footer li{
+    padding-left: 35%;
+  }
+
+
+  #footer img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+  }
+
+
+  /* Recetas tgrhyrjtyjuytyhdgfdfghjunhgrfghyjuikjhgfrghjuhng*/
+
+
+.textocom{
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  line-height: 330px;
+}
+
+
+
+  .fotos{
+    width: 350px;
+    margin: 0 auto;
+  }
+
+
+  .fotos ul{
+    width: 400px;
+    margin-left: 410px;
+    margin-top: -75px;
+    margin-bottom: -25px;
+  }
+
+  .fotos img{
+    width: 350px;
+    height: 240px;
+    position: center;
+  }
+
+  .fotos  li a.active, .fotos  li a:hover{
+    opacity: 100%;
+    background-color: transparent;
+
+  }
+  .clear{
+    clear: both;
+  }
+
+  #pierecetas{
+    height: 50px;
+    margin-top: 20px;
+    width: 100%;
+
+  }
+
+  #pierecetas ul{
+    margin: 0 auto;
+  }
+
+  #pierecetas li{
+    padding-left: 35%;
+  }
+
+
+  #pierecetas img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+  }
+
+
+
+  /* Comidas hjklkjhgfgbhjkjhgfdfghjkjhgfdfghjhgvfcdfvgbhjnhbg*/
+
+  .clear{
+    clear: both;
+  }
+
+
+  .foto{
+    width: 290px;
+    height: 220px;
+    margin-left: 40px;
+
+  }
+
+  .macarrones{
+    width: 290px;
+    height: 220px;;
+    background-image: url(img/mac.png);
+    background-size: contain;
+  }
+
+  .macarrones:hover{
+    background-image: url(img/machover.png);
+    background-size: contain;
+  }
+
+  .tort{
+    width: 290px;
+    height: 220px;;
+    background-image: url(img/tortilla.png);
+    background-size: contain;
+  }
+
+  .tort:hover{
+    background-image: url(img/torthover.png);
+    background-size: contain;
+  }
+
+  .ques{
+    width: 290px;
+    height: 220px;;
+    background-image: url(img/quesadilla.png);
+    background-size: contain;
+  }
+
+  .ques:hover{
+    background-image: url(img/queshover.png);
+    background-size: contain;
+  }
+
+  .sandw{
+    width: 290px;
+    height: 220px;;
+    background-image: url(img/sand.png);
+    background-size: contain;
+  }
+
+  .sandw:hover{
+    background-image: url(img/sandhover.png);
+    background-size: contain;
+  }
+
+  .tiram{
+    width: 290px;
+    height: 220px;;
+    background-image: url(img/tiram.png);
+    background-size: contain;
+  }
+
+  .tiram:hover{
+    background-image: url(img/tiramhover.png);
+    background-size: contain;
+  }
+
+  .nati{
+    width: 290px;
+    height: 220px;;
+    background-image: url(img/nat.png);
+    background-size: contain;
+  }
+
+  .nati:hover{
+    background-image: url(img/nathover.png);
+    background-size: contain;
+  }
+
+  .churro{
+    width: 290px;
+    height: 220px;;
+    background-image: url(img/Churro.png);
+    background-size: contain;
+  }
+
+  .churro:hover{
+    background-image: url(img/churrohover.png);
+    background-size: contain;
+  }
+
+  .churro{
+    width: 290px;
+    height: 220px;;
+    background-image: url(img/Churro.png);
+    background-size: contain;
+  }
+
+  .churro:hover{
+    background-image: url(img/churrohover.png);
+    background-size: contain;
+  }
+
+  .cake{
+    width: 290px;
+    height: 220px;;
+    background-image: url(img/cake.png);
+    background-size: contain;
+  }
+
+  .cake:hover{
+    background-image: url(img/cakehover.png);
+    background-size: contain;
+  }
+
+
+  #piecomidas{
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+
+  }
+
+  #piecomidas li{
+    padding-left: 35%;
+  }
+
+
+  #piecomidas img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+  }
+
+  .com{
+    margin-bottom: 20px;
+  }
+
+
+  .fotos2{
+    width: 350px;
+    margin: 0 auto;
+  }
+
+
+
+  .fotos2 img{
+    width: 350px;
+    height: 350px;
+    position: center;
+  }
+
+  .fotos2  li a.active, .fotos2  li a:hover{
+    opacity: 100%;
+    background-color: transparent;
+
+  }
+
+  /* Postres cjidbiuhfaouihfuhgfghfjhgjfhgjfhjhgjhjjfjh */
+  .clear{
+    clear: both;
+  }
+
+  #piecpostres{
+    height: 50px;
+    margin-top: 10px;
+    width: 100%;
+
+  }
+
+  #piecpostres li{
+    padding-left: 35%;
+  }
+
+
+  #piecpostres img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+  }
+
+  .com{
+    margin-bottom: 20px;
+  }
+
+
+  .fotos3{
+    width: 350px;
+    margin: 0 auto;
+  }
+
+
+
+  .fotos3 img{
+    width: 350px;
+    height: 350px;
+    position: center;
+  }
+
+  .fotos3  li a.active, .fotos2  li a:hover{
+    opacity: 100%;
+    background-color: transparent;
+
+  }
+
+  /* Quienes njvjkfhjkhgiuhreuiwghjkrekhgiuheiuwghrehguihhuhw4i */
+
+  .contenedorquienes{
+    width: 350px;
+    height: 700px;
+    background-color: #f4e3d0;
+  }
+
+  .contenedorquienes img{
+    width: 340px;
+    height: 340px;
+    background-color: lightgrey;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .contenedorquienes h2{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top:  20px;
+
+  }
+
+  .contenedorquienes p{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top:  10px;
+  }
+
+  .textoq{
+    width: 350px;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+
+
+
+
+
+  #pieq{
+    height: 50px;
+    margin-top: 5px;
+    width: 100%;
+
+  }
+
+  #pieq li{
+    padding-left: 35%;
+  }
+
+
+  #pieq img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+  }
+
+
+  /* Contactos jhdfkljdhufhgjahfjriogurewuthurhguhguhruhgruhgurhg */
+
+  form{
+    width: 100%;
+    margin-top: 50px;
+    background: white;
+  }
+
+
+
+  .contenedorcontactos{
+    width: 350px;
+    height: 600px;
+    background-color: transparent;
+
+  }
+
+
+
+  .contenedorcontactos h2{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top:  20px;
+
+  }
+
+  .contenedorcontactos p{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top:  10px;
+  }
+
+
+
+
+
+  #piec{
+    height: 50px;
+    margin-top: -35px;
+    width: 100%;
+
+  }
+
+  #piec li{
+    padding-left: 35%;
+  }
+
+
+  #piec img{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+  }
+
+/* Platos jfkdhsjhfjdhfjhfjdhjfdhjdhjdhfjdhjf */
+
+.ingredientes{
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.ingredientes li{
+  text-align: center;
+
+}
+
+.ingredientes h2{
+  margin-left: 10px;
+  margin-top: 3px;
+
+}
+
+.titulos{
+  width: 350;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.contenedorcomidas{
+  margin-top: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.contenedorcomidas2{
+  margin: 25px;
+  width: 240px;
+  margin-top: 10px;
+
+}
+
+.contenedorcomidas img{
+  width: 340px;
+  height: 240px;
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+.titulo{
+  width: 380px;
+  margin-left: 20px;
+  background-color: #5b3d38;
+  margin-top: 50px;
+  width: 150px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.titulo li{
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.titulo h2{
+  margin-bottom: 2px;
+
+
+}
+
+
+.proceso{
+  width: 400px;
+  margin: 0 auto;
+  margin-left: -40px;
+  margin-top: 50px;
+  margin-bottom: -25px;
+}
+
+.botonatras{
+  margin-bottom: 15;
+}
+
+.video{
+
+    width: 350;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.slider2{
+display: none;
+
+}
+
+.titulos img{
+  width: 320px;
+  height: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#piemac{
+  height: 50px;
+  margin-top: 5px;
+  width: 100%;
+
+}
+
+#piemac li{
+  padding-left: 35%;
+}
+
+
+#piemac img{
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+
+}
